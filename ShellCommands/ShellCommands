@@ -1,0 +1,1 @@
+squeue -u gclopton --format="%.8i %.9P %18j %10u %.8T %.12M %9N"
