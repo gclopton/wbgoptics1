@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Define the top-level directory
-top_dir="irga"
+top_dir="vgaic"
 
 # Define the subdirectories and sub-subdirectories
-subdirs=("chg0" "chg1" "chg2")
+subdirs=("chgn2" "chgn3")
 subsubdirs=("1_PBE" "2_HSE")
 
 # Loop over the subdirectories and sub-subdirectories to create the directories
