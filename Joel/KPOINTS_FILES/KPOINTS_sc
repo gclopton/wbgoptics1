@@ -1,0 +1,15 @@
+MCLC1 (C-centered monoclinic kgamma > 90) G-Y-F-L-I I1-Z-G-X X1-Y M-G-N Z-F1
+15   ! 15 grids
+Line-mode
+reciprocal
+   0.266291 0.266291 0 ! X
+   0.0000   0.0000   0.0000   ! \Gamma
+
+   0.0000   0.0000   0.0000   ! \Gamma
+   -0.5 2 1 ! M
+
+   -0.5 2 1 ! M
+   -0.258357 0.741643 0.5 ! I
+
+   -0.258357 0.741643 0.5 ! I
+   -1 0 1 ! L

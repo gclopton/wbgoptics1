@@ -1,0 +1,20 @@
+#!/usr/bin/perl
+$outcar=$ARGV[0];
+$line = `grep -n 'TOTAL-FORCE' $outcar | awk '{print \$1}' | sed 's/://g'`;
+@array=split('\n',$line);
+$atoms = `head -7 POSCAR | tail -1`;
+@atmarray=split(' ',$atoms);
+$natoms=eval join '+' , @atmarray;
+foreach $iter (@array){
+    $lastline=$iter+$natoms+1;
+    $currentlist=`head -$lastline $outcar | tail -$natoms`;
+    @forcearray=split('\n',$currentlist);
+    $sum=0;
+    foreach $line (@forcearray){
+	@forces=split(' ',$line);
+	$magsq=$forces[3]*$forces[3]+$forces[4]*$forces[4]+$forces[5]*$forces[5];
+    $sum+=$magsq
+    }
+    $norm=sqrt($sum);
+    print "$norm \n";
+}

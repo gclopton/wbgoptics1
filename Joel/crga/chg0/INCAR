@@ -1,0 +1,24 @@
+INCAR created by Atomic Simulation Environment
+ ENCUT = 400.000000
+ SIGMA = 0.050000
+ POTIM = 0.350000
+ PREC = Normal
+ ALGO = All
+ ISMEAR = 0
+ NELM = 40
+ LORBIT = 10
+ LWAVE = .TRUE.
+ LVHAR = .TRUE.
+ LREAL = Auto
+
+NSW = 45
+IBRION = 2
+LHFCALC = .TRUE.
+AEXX = 0.32
+HFSCREEN = 0.2
+PRECFOCK = F
+LCHARG = F
+
+ ISPIN = 2
+#NELECT = 1410
+LASPH = .TRUE.
