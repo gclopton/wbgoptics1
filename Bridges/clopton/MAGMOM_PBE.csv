@@ -1,0 +1,13 @@
+system,Joel,PBE,HSE
+crga/chg0,63*0 1*3 96*0,crga,
+crga/chg1,63*0 1*2 96*0,63*0 -2 96*0,
+fega/chg0,63*0 1*5 96*0,,
+fega/chg1,63*0 1*4 96*0,63*0 1*4 96*0,""
+fega/chgn1,63*0 1*4 96*0,,
+irga/chg0,160*0,160*0,
+irga/chg1,63*0 1*1 96*0,,
+irga/chg2,63*0 1*2 96*0,"",
+vgaib/chgn2,133*0 1*1 25*0,,
+vgaib/chgn3,No ISPIN,No ISPIN,No ISPIN
+vgaic/chgn2,64*0 1*1 94*0,,
+vgaic/chgn3,No ISPIN,No ISPIN,No ISPIN

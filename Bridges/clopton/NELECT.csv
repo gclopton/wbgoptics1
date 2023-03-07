@@ -1,0 +1,15 @@
+system,charge,NELECT
+crga,chg0,1407
+crga,chg1,1406
+fega,chg0,1409
+fega,chg1,1408
+fega,chgn1,1410
+fega,chg0,1409
+fega,chg1,1408
+irga,chg0,1404
+irga,chg1,1403
+irga,chg2,1402
+vgaib,chgn2,1397
+vgaib,chgn3,1398
+vgaic,chgn2,1397
+vgaic,chgn3,1398
